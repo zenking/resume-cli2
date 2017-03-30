@@ -4,25 +4,31 @@
   "description": "you can creat a resume with command lines",
   "main": "index.js",
   "bin": {
-      "resume":"./bin/index.js"
+    "resume": "./bin/index.js"
   },
   "scripts": {
     "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zenking/resume-cli2.git"
-  },
+  "repository": "git+https://github.com/zenking/resume-cli2.git",
   "keywords": [
     "resume",
     "node",
     "command",
     "line"
   ],
-  "author": "ag_dubs <wombat@ns.com>",
+  "author": "zhangling <zhangling@whatsmax.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zenking/resume-cli2/issues"
   },
-  "homepage": "https://github.com/zenking/resume-cli2#readme"
+  "homepage": "https://github.com/zenking/resume-cli2#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.2",
+    "gulp-install": "^1.1.0",
+    "gulp-template": "^4.0.0",
+    "inquirer": "^3.0.6",
+    "yargs": "^7.0.2",
+    "yarn": "^0.21.3"
+  }
 }
